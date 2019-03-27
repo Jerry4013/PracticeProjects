@@ -1,0 +1,35 @@
+.header{
+    background-color: #3586c5;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+}
+.logo{
+    margin: auto;
+    height: 80px;
+}
+h1, h3{
+    margin: 50px;
+    text-align: center;
+    font-family: Arial;
+}
+table{
+    width: 800px;margin-left: auto; margin-right: auto;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,td {
+    width: 100px;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial;
+}
+
+.table-header{
+    background-color: brown;
+    color: white;
+    font-size: 1.2em;
+}

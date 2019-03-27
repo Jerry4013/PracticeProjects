@@ -1,0 +1,780 @@
+{
+  "courses": [
+    {
+      "courseNumber": "COMP 108",
+      "courseName": "Computer Science Industrial Experience Reflective Learning I",
+      "credits": 3.0,
+      "prerequisite": [],
+      "description": "This course is a reflective learning module for students in their related field which is based on their academic requirements and their first industrial experience."
+    },
+    {
+      "courseNumber": "COMP 201",
+      "courseName": "Introduction to Computing",
+      "credits": 3.0,
+      "prerequisite": [
+        "MATH 201"
+      ],
+      "description": "Overview of computing systems. Problem solving and algorithms. Introduction to computer programming. Hardware, software and data storage, programming languages, data organization, program design and development. Lectures: three hours per week. Tutorial: one hour per week. NOTES: 1. Students who have received credit for COMP 218, COMP 248, or COEN 243 may not take this course for credit. 2. This course may not be taken for credit in the regular undergraduate programs in Engineering and Computer Science."
+    },
+    {
+      "courseNumber": "COMP 208",
+      "courseName": "Computer Science Industrial Experience Reflective Learning II",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 108"
+      ],
+      "description": "This course expands on the students� second industrial experience term in their related field of study to further develop their knowledge and work-related skills."
+    },
+    {
+      "courseNumber": "COMP 218",
+      "courseName": "Fundamentals of Programming",
+      "credits": 3.0,
+      "prerequisite": [
+        "MATH 201"
+      ],
+      "description": "Computers and computing: problem solving with computers, basic data types, expressions, assignments, control structures, simple library functions, programmer-defined functions, arrays of basic types. Basic elements of object-oriented programming: classes, objects and methods. Lectures: three hours per week. Tutorial: one hour per week. NOTE: Students who have received credit for COMP 248 or COEN 243 may not take this course for credit. NOTE: This course may not be taken for credit in the regular undergraduate programs in Engineering and Computer Science."
+    },
+    {
+      "courseNumber": "COMP 228",
+      "courseName": "System Hardware",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 248"
+      ],
+      "corequisite": [
+        "MATH 203",
+        "MATH 204"
+      ],
+      "description": "Levels of system abstraction and von Neumann model. Basics of digital logic design. Data representation and manipulation. Instruction set architecture. Processor internals. Assembly language programming. Memory subsystem and cache management. I/O subsystem. Introduction to network organization and architecture. Lectures: three hours per week. Tutorial: two hours per week. NOTE: Students who have received credit for SOEN 228 may not take this course for credit."
+    },
+    {
+      "courseNumber": "COMP 232",
+      "courseName": "Mathematics for Computer Science",
+      "credits": 3.0,
+      "prerequisite": [
+        "MATH 203",
+        "MATH 204"
+      ],
+      "corequisite": [
+        "MATH 203",
+        "MATH 204"
+      ],
+      "description": "Sets. Propositional logic and predicate calculus. Functions and relations. Elements of number theory. Mathematical reasoning. Proof techniques: direct proof, indirect proof, proof by contradiction, proof by induction. Lectures: three hours per week. Tutorial: two hours per week. NOTE: Students who have received credit for COMP 238 or COEN 231 may not take this course for credit."
+    },
+    {
+      "courseNumber": "COMP 233",
+      "courseName": "Probability and Statistics for Computer Science",
+      "credits": 3.0,
+      "prerequisite": [
+        "MATH 205"
+      ],
+      "corequisite": [
+        "MATH 203",
+        "MATH 204"
+      ],
+      "description": "Combinatorics. Axioms of probability. Conditional probability. Discrete and continuous probability distributions. Expectation and moments. Hypothesis testing. Parameter estimation. Correlation and linear regression. Applications to computer science. Lectures: three hours per week. Tutorial: two hours per week. NOTE: Students who have received credit for ENGR 371, STAT 249, STAT 250, COMM 215, MAST 221, MAST 333 may not take this course for credit."
+    },
+    {
+      "courseNumber": "COMP 248",
+      "courseName": "Object-Oriented Programming I",
+      "credits": 3.5,
+      "prerequisite": [
+        "MATH 205"
+      ],
+      "corequisite": [
+        "MATH 204"
+      ],
+      "description": "Introduction to programming. Basic data types, variables, expressions, assignments, control flow. Classes, objects, methods. Information hiding, public vs. private visibility, data abstraction and encapsulation. References. Arrays. Lectures: three hours per week. Tutorial: two hours per week. Laboratory: one hour per week."
+    },
+    {
+      "courseNumber": "COMP 249",
+      "courseName": "Object-Oriented Programming II",
+      "credits": 3.5,
+      "prerequisite": [
+        "COMP 248",
+        "MATH 203"
+      ],
+      "corequisite": [
+        "MATH 205"
+      ],
+      "description": "Design of classes. Inheritance. Polymorphism. Static and dynamic binding. Abstract classes. Exception handling. File I/O. Recursion. Interfaces and inner classes. Graphical user interfaces. Generics. Collections and iterators. Lectures: three hours per week. Tutorial: two hours per week. Laboratory: one hour per week."
+    },
+    {
+      "courseNumber": "COMP 326",
+      "courseName": "Computer Architecture",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 346"
+      ],
+      "corequisite": [
+        "MATH 205"
+      ],
+      "description": "Computer architecture models: control-flow and data-flow. Concurrency and locality, data dependency theory. Instruction level parallelism. Instruction scheduling. Pipelined processors. Vector processors. Thread level parallelism. Multiprocessors. Shared memory models. Coherence protocols. Interconnection networks. Performance issues. Advanced topics in contemporary computer architectures. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "COMP 335",
+      "courseName": "Introduction to Theoretical Computer Science",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 232",
+        "COMP 249"
+      ],
+      "corequisite": [
+        "MATH 205"
+      ],
+      "description": "Finite state automata and regular languages. Push-down automata and context-free languages. Pumping lemmas. Applications to parsing. Turing machines. Unde�cidability and decidability. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "COMP 339",
+      "courseName": "Combinatorics",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 232"
+      ],
+      "corequisite": [
+        "MATH 205"
+      ],
+      "description": "General principles of counting, permutations, combinations, identities, partitions, generating functions, Fibonacci numbers, Stirling numbers, Catalan numbers, principle of inclusion-exclusion. Graphs, subgraphs, isomorphism, Euler graphs, Hamilton paths and cycles, planar graphs, Kuratowski�s Theorem, trees, colouring, 5-colour theorem, matching, Hall�s theorem.NOTE: Students who have received credit for MATH 339 may not take this course for credit."
+    },
+    {
+      "courseNumber": "COMP 345",
+      "courseName": "Advanced Program Design with C++",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 232"
+      ],
+      "corequisite": [
+        "COMP 352"
+      ],
+      "description": "Introduction to C++. I/O with stream classes. Pointers and their uses. The Standard Template Library (STL): containers, algorithms, iterators, adaptors, function objects. Class design: constructors, destructors, operator overloading, inheritance, virtual functions, exception handling, memory management. Advanced topics: libraries, locales, STL conventions, concurrency, template metaprogramming. Applications of C++: systems, engineering, games programming. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 346",
+      "courseName": "Operating Systems",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 228",
+        "COMP 352"
+      ],
+      "corequisite": [
+        "COMP 352"
+      ],
+      "description": "Fundamentals of operating system functionalities, design and implementation. Multiprogramming: processes and threads, context switching, queuing models and scheduling. Interprocess communication and synchronization. Principles of concurrency. Synchronization primitives. Deadlock detection and recovery, prevention and avoidance schemes. Memory management. Device management. File systems. Protection models and schemes. Lectures: three hours per week. Tutorial: one hour per week. Laboratory: two hours per week.NOTE: Students who have received credit for COEN 346 may not take this course for credit."
+    },
+    {
+      "courseNumber": "COMP 348",
+      "courseName": "Principles of Programming Languages",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 249"
+      ],
+      "corequisite": [
+        "COMP 352"
+      ],
+      "description": "Survey of programming paradigms: Imperative, functional, and logic programming. Issues in the design and implementation of programming languages. Declaration models: binding, visibility, and scope. Type systems, including static and dynamic typing. Parameter passing mechanisms. Hybrid language design. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "COMP 352",
+      "courseName": "Data Structures and Algorithms",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 249"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Abstract data types: stacks and queues, trees, priority queues, dictionaries. Data structures: arrays, linked lists, heaps, hash tables, search trees. Design and analysis of algorithms: asymptotic notation, recursive algorithms, searching and sorting, tree traversal, graph algorithms. Lectures: three hours per week. Tutorial: one hour per week.NOTE: Students who have received credit for COEN 352 may not take this course for credit."
+    },
+    {
+      "courseNumber": "COMP 353",
+      "courseName": "Databases",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 232",
+        "COMP 352"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Introduction to database management systems. Conceptual database design: the entity-relationship model. The relational data model and relational algebra: functional dependencies and normalization. The SQL language and its application in defining, querying, and updating databases; integrity constraints; triggers. Developing database applications. Other data models: Datalog. Object-oriented data model and ODL. Semi-structured data. Project. Lectures: three hours per week. Tutorial: one hour per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 354",
+      "courseName": "Introduction to Software Engineering",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 352",
+        "ENCS 282"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Software development process models (e.g. linear vs. iterative). Project management; roles, activities and deliverables for each software life cycle phase. Requirements management: analysis, elicitation, and scope. Architecture, design and the mapping of requirements to design and design to implementation. Traceability. Software quality assurance: verification, validation and the role of testing. Maintenance and evolution. Project. Lectures: three hours per week. Tutorial: one hour per week. Laboratory: two hours per week.NOTES: 1. Students who have received credit for SOEN 341 may not take this course for credit.2. Students in the BEng in Software Engineering program may not take this course for credit."
+    },
+    {
+      "courseNumber": "COMP 361",
+      "courseName": "Elementary Numerical Methods",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 232",
+        "COMP 249"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Vector and matrix norms. Numerical methods for solving linear systems, Gaussian elimination, LU decomposition, error analysis. Numerical solution of nonlinear equations, Newton�s method, fixed point iterations. Interpolation and approximation, Taylor, Lagrange, Chebyshev and Legendre polynomials. Cubic spline interpolation. Numerical differentiation, numerical integration, Gauss quadrature. Discrete least-squares approximation. Initial value problems in ordinary differential equations, stiff differential equations. Boundary value problems in ordinary differential equations. Lectures: three hours per week. Tutorial: one hour per week.NOTE: Students who have received credit for ENGR 391 or MAST 334 may not take this course for credit."
+    },
+    {
+      "courseNumber": "COMP 367",
+      "courseName": "Techniques in Symbolic Computation",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 232",
+        "COMP 248"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Symbolic computation and its use in pure and applied mathematics, in particular in algebra, number theory, cryptography, coding theory, and combinatorics. Programming in a symbolic computing system (e.g. MAPLE).NOTE: Students who have received credit for MAST 332 may not take this course for credit."
+    },
+    {
+      "courseNumber": "COMP 371",
+      "courseName": "Computer Graphics",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 232",
+        "COMP 352"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Introduction to computer graphics and graphics hardware. Introduction to graphics API and graphics systems architecture. Mathematics of 2D and 3D transformations, and 2D and 3D viewing. Colour and basic rendering algorithms. Visual realism and visibility. Illumination and shading, global illumination techniques, and textures. Introduction to curves and surfaces, and 3D object modelling. Introduction to computer animation. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 376",
+      "courseName": "Introduction to Game Development",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 371"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Introduction to design and implementation aspects of computer gaming: basic game design, storytelling and narratives, and game genres. Virtual environments, 2D and 3D game engines, and game development tools. Character development, gameplay strategies, level design in games, and user interfaces. Architecture of game consoles, analog and digital controllers, and the incorporation of graphics, sound, and music in game implementations. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 426",
+      "courseName": "Multicore Programming",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 346"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Fundamental concepts of computer architecture. Architecture of the selected multicore platform. Review of shared-memory parallel programming. The difficulties inherent to parallel programming. Scalability of programming models. The stream programming model for multicore. Implicit and explicit threading. Implicit and explicit orchestration of data movement, both on chip and off. Adapting standard algorithms to multicore. Critical assessment of the available system-software support. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 428",
+      "courseName": "Parallel Programming",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 346"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Parallel programming techniques as a natural extension to sequential programming. Overview of parallel programming architectures and models. Parallel programming issues: locality, granularity, scheduling, data decomposition and distribution, load balancing, communication and synchronization, determinacy and non-determinacy, cost and performance. Techniques and tools for message-passing parallel programming. Case studies. Project. Lectures: three hours per week. Tutorial: one hour per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 442",
+      "courseName": "Compiler Design",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 228",
+        "COMP 335",
+        "COMP 352"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Compiler organization and implementation: lexical analysis and parsing, syntax-directed translation, code optimization. Run-time systems. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 444",
+      "courseName": "System Software Design",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 346"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Detailed examination of the design, implementation and system call interface of a contemporary operating system: its kernel, file system, process and thread management including scheduling, file system design and implementation, memory management, device management, I/O management, interprocess communication and synchronization mechanisms, system call interface, interrupt handling, and other advanced issues. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 445",
+      "courseName": "Data Communication and Computer Networks",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 346"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Network architectures: OSI and Internet models. Link layer: error detection, multiple access protocols, addressing. Local area networks: Ethernet, ATM, switches and hubs. Network layer: forwarding and routing, IP, routing algorithms, multicast. Transport layer: connectionless and connection-oriented transport, reliable data transport, congestion control, QoS, UDP and TCP. Application layer: DNS, the web and http, file transfer, and email. Introduction to network security, multimedia protocols and wireless networking. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 451",
+      "courseName": "Database Design",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 353"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Storage management. Buffer management. Data organization. Index structures. Query optimization and execution. Transaction management. Recovery. Concur�rency control. Database performance analysis and tuning. New trends in database technology. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 465",
+      "courseName": "Design and Analysis of Algorithms",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 232",
+        "COMP 339",
+        "COMP 352"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Order statistics: worst-case, average-case and amortized analysis. Algorithm design techniques: greedy algorithms, dynamic programming. Selected algorithms from graph theory, linear programming, number theory, string matching, and computational geometry. A survey of hard problems, NP-completeness, and approximation algorithms. Lectures: three hours per week."
+    },
+    {
+      "courseNumber": "COMP 472",
+      "courseName": "Artificial Intelligence",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 352"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Scope of AI. First-order logic. Automated reasoning. Search and heuristic search. Game-playing. Planning. Knowledge representation. Probabilistic reasoning. Introduction to machine learning. Introduction to natural language processing. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 473",
+      "courseName": "Pattern Recognition",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 352"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Preprocessing. Feature extraction and selection. Similarity between patterns and distance measurements. Syntactic and statistical approaches. Clustering analysis. Bayesian decision theory and discriminant functions. Neural networks and machine learning. Applications. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 474",
+      "courseName": "Intelligent Systems",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 352"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Rule-based expert systems, blackboard architecture, and agent-based. Knowledge acquisition and representation. Uncertainty and conflict resolution. Reasoning and explanation. Design of intelligent systems. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 476",
+      "courseName": "Advanced Game Development",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 361",
+        "COMP 376"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Introduction to advanced aspects of computer games. Game engine design. Artificial Intelligence (AI): non-player character movement, coordinated movement, pathfinding, world representations; decision making; tactical AI, strategic AI, learning in games. Physics-based techniques: collision detection and response. Networked gaming: multi-player games, networking and distributed game design, mobile gaming. Improving realism: cut scenes, 3D sound. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 477",
+      "courseName": "Animation for Computer Games",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 361",
+        "COMP 371"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Introduction to the algorithms, data structures, and techniques used in modelling and rendering dynamic scenes. Topics include principles of traditional animation, production pipeline, animation hardware and software, orientation representation and interpolation, modelling physical and articulated objects, forward and inverse kinematics, motion control and capture, key-frame, procedural, and behavioural animation, camera animation, scripting system, and free-form deformation. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 478",
+      "courseName": "Image Processing",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 352"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Digital image fundamentals, image transforms (Fourier, Walsh, Haar, Hotelling, wavelet), image enhancement (histogram processing, spatial filtering, high- and low-pass filtering), image restoration, image compression (elements of information theory, image compression models, error-free compression, lossy compression, image compression standards), image segmentation (line detection, Hough transform, edge detection and linking, thresholding, region splitting and merging), representation and description (chain codes, signatures, skeletons, shape descriptors, moments, texture). Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 479",
+      "courseName": "Information Retrieval and Web Search",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 233",
+        "COMP 352"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Basics of information retrieval (IR): boolean, vector space and probabilistic models. Tokenization and creation of inverted files. Weighting schemes. Evaluation of IR systems: precision, recall, F-measure. Relevance feedback and query expansion. Application of IR to web search engines: XML, link analysis, PageRank algorithm. Text categorization and clustering techniques as used in spam filtering. Project. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 490",
+      "courseName": "Computer Science Project I",
+      "credits": 3.0,
+      "prerequisite": [
+        "ENCS 282"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Students work on a computer science project under the supervision of a faculty member and submit a suitable written report on the work carried out. Students planning to register for this course should consult with the Department prior to registration in the final year of study.NOTE: Students can register for COMP 490 by itself or, with the permission of the Department, students can register for COMP 490 and 492 concurrently and carry out a major project."
+    },
+    {
+      "courseNumber": "COMP 492",
+      "courseName": "Computer Science Project II",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 490"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Students work on a computer science project under the supervision of a faculty member and submit a suitable written report on the work carried out. Students planning to register for this course should consult with the Department prior to registration in their final year of study.NOTE: Students can register for COMP 492 by itself or, with the permission of the Department, students can register for COMP 490 and 492 concurrently and carry out a major project."
+    },
+    {
+      "courseNumber": "COMP 492",
+      "courseName": "Computer Science Project II",
+      "credits": 3.0,
+      "prerequisite": [
+        "ENCS 282"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "COMP 495     Honours Seminar (1 credit)Students are required to attend a number of departmental seminars and submit a written report on them."
+    },
+    {
+      "courseNumber": "COMP 498",
+      "courseName": "Topics in Computer Science",
+      "credits": 3.0,
+      "prerequisite": [],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "This course may be offered in a given year upon the authorization of the Department. The content may vary from offering to offering and will be chosen to complement the available elective courses. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "COMP 499",
+      "courseName": "Topics in Computer Science",
+      "credits": 4.0,
+      "prerequisite": [],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "This course may be offered in a given year upon the authorization of the Department. The content may vary from offering to offering and will be chosen to complement the available elective courses. Lectures: three hours per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "SOEN 228",
+      "courseName": "System Hardware",
+      "credits": 4.0,
+      "prerequisite": [
+        "MATH 203",
+        "MATH 204"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Processor structure, Data and Instructions, Instruction Set Processor (ISP) level view of computer hardware, assembly language level use. Memory systems � RAM and disks, hierarchy of memories. I/O organization, I/O devices and their diversity, their interconnection to CPU and Memory. Communication between computers at the physical level. Networks and computers. Lectures: three hours per week. Tutorial: two hours per week. Laboratory: two hours per week.NOTE: Students who have received credit for COMP 228 may not take this course for credit."
+    },
+    {
+      "courseNumber": "SOEN 287",
+      "courseName": "Web Programming",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 248"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Internet architecture and protocols. Web applications through clients and servers. Markup languages. Client-side programming using scripting languages. Static website contents and dynamic page generation through server-side programming. Preserving state (client-side) in web applications. Lectures: three hours per week. Tutorial: two hours per week."
+    },
+    {
+      "courseNumber": "SOEN 287",
+      "courseName": "Web Programming",
+      "credits": 3.0,
+      "prerequisite": [],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "SOEN 298     System Hardware Lab (1 credit)Digital design exercises including assembly and testing corresponding to the SOEN 228 lab. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "SOEN 321",
+      "courseName": "Information Systems Security",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 346"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Protocol layers and security protocols. Intranets and extranets. Mobile computing. Electronic commerce. Security architectures in open-network environments. Cryptographic security protocols. Threats, attacks, and vulnerabilities. Security services: confidentiality; authentication; integrity; access control; non-repudiation; and availability. Security mechanisms: encryption; data-integrity mechanisms; digital signatures; keyed hashes; access-control mechanisms; challenge-response authentication; traffic padding; routing control; and notarization. Key-management principles. Distributed and embedded firewalls. Security zones. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "SOEN 331",
+      "courseName": "Introduction to Formal Methods for Software Engineering",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 232",
+        "COMP 249"
+      ],
+      "corequisite": [
+        "COMP 232"
+      ],
+      "description": "Assertions. Static and dynamic checking. Method specification using preconditions and postconditions. Strengthening and weakening. Design by contract. Hoare logic. Invariants. Class specification using invariants. Software tools for assertion checking and verification. Reliable software development. Lectures: three hours per week. Tutorial: two hours per week."
+    },
+    {
+      "courseNumber": "SOEN 341",
+      "courseName": "Software Process",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 352"
+      ],
+      "corequisite": [
+        "ENCS 282"
+      ],
+      "description": "Basic principles of software engineering. Introduction to software process models. Activities in each phase, including review activities. Working in teams: organization; stages of formation; roles; conflict resolution. Notations used in software documentation. How to review, revise, and improve software documentation. Lectures: three hours per week. Tutorial: one hour per week.NOTE: Students who have received credit for COMP 354 may not take this course for credit."
+    },
+    {
+      "courseNumber": "SOEN 342",
+      "courseName": "Software Requirements and Specifications",
+      "credits": 3.0,
+      "prerequisite": [
+        "SOEN 341"
+      ],
+      "corequisite": [
+        "ENCS 282"
+      ],
+      "description": "Requirements engineering. Functional and non-functional requirements. Traceability. Test generation. Formal and informal specifications. Formal specification languages. Reasoning with specifications. Correctness issues. Verification. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "SOEN 343",
+      "courseName": "Software Architecture and Design I",
+      "credits": 3.0,
+      "prerequisite": [
+        "SOEN 341"
+      ],
+      "corequisite": [
+        "SOEN 342"
+      ],
+      "description": "From requirements to design to implementation. Planned vs. evolutionary design and refactoring. Model-driven design and Unified Modelling Language (UML). Structural and behavioural design descriptions and specifications. General and domain-specific design principles, patterns and idioms. Object-oriented design concepts such as interfaces vs. abstract types, polymorphism, generics, and delegation vs. subclassing. Introduction to software architecture (styles and view models). Design quality. Design rationale. Design methodologies (e.g. based on responsibility assignment). Test-driven development. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "SOEN 344",
+      "courseName": "Software Architecture and Design II",
+      "credits": 3.0,
+      "prerequisite": [
+        "SOEN 343"
+      ],
+      "corequisite": [
+        "SOEN 342"
+      ],
+      "description": "Architectural activities, roles, and deliverables. Architectural view models. Architectural styles (including client-server, layered, pipes-and-filters, event-based, process control) and frameworks. Architectural analysis and the interplay with requirements elicitation. Notations for expressing architectural designs, structural and behavioural specifications. From architectural design to detailed design. Domain specific architectures and design patterns. Evaluation and performance estimation of designs. Advanced object-oriented design patterns and idioms. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "SOEN 345",
+      "courseName": "Software Testing, Verification and Quality Assurance",
+      "credits": 3.0,
+      "prerequisite": [
+        "SOEN 343"
+      ],
+      "corequisite": [
+        "SOEN 343"
+      ],
+      "description": "Testing strategies. Specification-based vs. code-based, black-box vs. white-box, functional vs. structural testing; unit, integration, system, acceptance, and regression testing. Verification vs. validation. Test planning, design and artifacts. Introduction to software reliability and quality assurance. Formal verification methods, oracles; static and dynamic program verification. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "SOEN 357",
+      "courseName": "User Interface Design",
+      "credits": 3.0,
+      "prerequisite": [
+        "SOEN 341"
+      ],
+      "corequisite": [
+        "SOEN 343"
+      ],
+      "description": "The human side: I/O; memory; and information processing. Interaction: mental models; human error; interaction frameworks and paradigms. Direct manipulation. User interface design: principles; standards; and guidelines. User-centred design: standards and design rationale; heuristic evaluation; iterative design; and prototyping. Task-centred design. Rationalized design: usability engineering; dialogue notations; user models; diagrammatic notations; and textual notations. Evaluation: with the user; without the user; quantitative; and qualitative. Implementation support. Help and documentation. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "SOEN 384",
+      "courseName": "Management, Measurement and Quality Control",
+      "credits": 3.0,
+      "prerequisite": [
+        "ENCS 282",
+        "SOEN 341"
+      ],
+      "corequisite": [
+        "SOEN 343"
+      ],
+      "description": "Organization of large software development. Roles of team members, leaders, managers, stakeholders, and users. Tools for monitoring and controlling a schedule. Financial, organizational, human, and computational resources allocation and control. Project and quality reviews, inspections, and walkthroughs. Risk management. Communication and collaboration. Cause and effects of project failure. Project management via the Internet. Quality assurance and control. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "SOEN 385",
+      "courseName": "Control Systems and Applications",
+      "credits": 3.0,
+      "prerequisite": [
+        "ENGR 213",
+        "ENGR 233"
+      ],
+      "corequisite": [
+        "SOEN 343"
+      ],
+      "description": "Mathematical modelling of dynamical systems; block diagrams; feedback; open and closed loops. Linear differential equations; time domain analysis; free, forced, and total response; steady state and transient response. Laplace transform and inverse transform; second order systems. Transfer functions and stability. Control system design: PID and root locus techniques. Computer simulation of control systems. Applications. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "SOEN 387",
+      "courseName": "Web-Based Enterprise Application Design",
+      "credits": 3.0,
+      "prerequisite": [
+        "COMP 354",
+        "SOEN 287"
+      ],
+      "corequisite": [
+        "COMP 353"
+      ],
+      "description": "Hypertext Transfer Protocol (HTTP), web mark-up languages and encodings. Document Object Models (DOM). Client/server and layered architectures for Web-based Enterprise Applications (WEA). Presentation, Domain and Data Source design patterns. Client-side programming. Java servlets and Java Server Pages. Authentication, security and transaction processing. Lectures: three hours per week. Tutorial: one hour per week."
+    },
+    {
+      "courseNumber": "SOEN 390",
+      "courseName": "Software Engineering Team Design Project",
+      "credits": 3.5,
+      "prerequisite": [
+        "COMP 354",
+        "SOEN 287"
+      ],
+      "corequisite": [
+        "SOEN 344",
+        "SOEN 357"
+      ],
+      "description": "Students work in teams to design and implement a software project from requirements provided by the coordinator. Each team will demonstrate the software and prepare adequate documentation for it. In addition, each student will write an individual report. Lectures: two hours per week. Tutorial: one hour per week. Laboratory: three hours per week."
+    },
+    {
+      "courseNumber": "SOEN 422",
+      "courseName": "Embedded Systems and Software",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 346"
+      ],
+      "corequisite": [
+        "SOEN 344",
+        "SOEN 357"
+      ],
+      "description": "Characteristics of embedded systems. Microcontroller architectures and their software. Development environments. Operating system configuration. Interprocessor and remote communication. Interface, timer and interrupt configuration. Control of physical systems. Design, implementation and testing of integrated systems. Advanced topics. Lectures: three hours per week. Tutorial one hour per week. Laboratory: two hours per week.NOTE: Students who have received credit for COEN 421 may not take this course for credit."
+    },
+    {
+      "courseNumber": "SOEN 423",
+      "courseName": "Distributed Systems",
+      "credits": 4.0,
+      "prerequisite": [
+        "COMP 346"
+      ],
+      "corequisite": [
+        "SOEN 344",
+        "SOEN 357"
+      ],
+      "description": "Principles of distributed computing: scalability, transparency, concurrency, consistency, fault tolerance, high availability. Client-server interaction technologies: interprocess communication, sockets, group communication, remote procedure call, remote method invocation, object request broker, CORBA, web services. Server design techniques: process replication, fault tolerance through passive replication, high availability through active replication, coordination and agreement, transactions and concurrency control. Lectures: three hours per week. Tutorial one hour per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "SOEN 448",
+      "courseName": "Management of Evolving Systems",
+      "credits": 3.0,
+      "prerequisite": [
+        "SOEN 342",
+        "SOEN 343",
+        "SOEN 344"
+      ],
+      "corequisite": [
+        "SOEN 344",
+        "SOEN 357"
+      ],
+      "description": "Software maintenance: corrective; perfective; and adaptive. Software reuse; construction of reusable software. Techniques for reverse engineering and re-engineering software. Software development as �growing� software. Long-term evolution of software systems. Legacy systems. Lectures: three hours per week."
+    },
+    {
+      "courseNumber": "SOEN 449",
+      "courseName": "Component Engineering",
+      "credits": 3.0,
+      "prerequisite": [
+        "SOEN 344"
+      ],
+      "corequisite": [
+        "SOEN 344",
+        "SOEN 357"
+      ],
+      "description": "Review of high-level language concepts and abstraction mechanisms. Programming with functional and logical languages. Typed vs. untyped languages. The use of scripting languages and other language-based techniques to assemble systems from high-level components. Lectures: three hours per week."
+    },
+    {
+      "courseNumber": "SOEN 487",
+      "courseName": "Web Services and Applications",
+      "credits": 4.0,
+      "prerequisite": [
+        "SOEN 344"
+      ],
+      "corequisite": [
+        "SOEN 387"
+      ],
+      "description": "Analysis and design of web services and applications. Advanced architectures for the design, deployment, and testing of large multi-server web services and applications. Service Oriented Architecture (SOA). Electronic Commerce. Security. Load balancing. Stress testing. Lectures: three hours per week. Tutorial: one hour per week. Laboratory: two hours per week."
+    },
+    {
+      "courseNumber": "SOEN 490",
+      "courseName": "Capstone Software Engineering Design Project",
+      "credits": 4.0,
+      "prerequisite": [
+        "SOEN 390"
+      ],
+      "corequisite": [
+        "SOEN 387"
+      ],
+      "description": "Students work in teams of at least four members to construct a significant software application. The class meets at regular intervals. Team members will give a presentation of their contribution to the project. Lectures: one hour per week. Laboratory: two hours per week. Two terms."
+    },
+    {
+      "courseNumber": "SOEN 490",
+      "courseName": "Capstone Software Engineering Design Project",
+      "credits": 4.0,
+      "prerequisite": [],
+      "corequisite": [
+        "SOEN 387"
+      ],
+      "description": "SOEN 491     Software Engineering Project (1 credit)Theoretical or practical project in an advanced topic in software engineering."
+    },
+    {
+      "courseNumber": "SOEN 498",
+      "courseName": "Topics in Software Engineering",
+      "credits": 3.0,
+      "prerequisite": [],
+      "corequisite": [
+        "SOEN 387"
+      ],
+      "description": "This course may be offered in a given year upon the authorization of the Department. The content may vary from offering to offering and will be chosen to complement the available elective courses. Lectures: three hours per week."
+    }
+  ]
+}
