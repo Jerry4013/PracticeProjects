@@ -55,7 +55,8 @@
     var members = ["Radu","Alain","Mohannad","Azzedine","Jerry","Alexandre","Jonathan","Luvleen","Farid",
         "Jennifer","Wanling","Zineb"];
     for (var i = 0; i < members.length; i++) {
-        $("#team").after($("<p class=\"card draggable\" style=\"width: 8rem;z-index: 1;float: left;\"></p>").text(members[i]));
+        $("#team").after($("<p class=\"card draggable\" " +
+            "style=\"color: white; background-color: dodgerblue; width: 8rem;z-index: 1;float: left;\"></p>").text(members[i]));
     }
 </script>
 </body>
