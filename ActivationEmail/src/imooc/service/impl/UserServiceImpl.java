@@ -14,10 +14,15 @@ import java.sql.SQLException;
  **/
 public class UserServiceImpl implements UserService {
     @Override
-    public void register(User user) throws Exception {
+    public boolean register(User user) throws Exception {
         UserDaoImpl userDao = new UserDaoImpl();
-        userDao.register(user);
-        MailUtils.sendEmail(user.getEmail(), user.getCode());
+        boolean result = userDao.register(user);
+        if (result){
+            MailUtils.sendEmail(user.getEmail(), user.getCode());
+            return true;
+        } else {
+            return false;
+        }
     }
 
     @Override

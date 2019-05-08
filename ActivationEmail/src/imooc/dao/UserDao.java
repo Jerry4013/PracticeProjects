@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 public interface UserDao {
 
-    void register(User user) throws Exception;
+    boolean register(User user) throws Exception;
 
     User findByCode(String code) throws SQLException, ClassNotFoundException;
 

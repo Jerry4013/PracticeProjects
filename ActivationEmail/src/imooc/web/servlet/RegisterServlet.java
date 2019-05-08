@@ -37,10 +37,14 @@ public class RegisterServlet extends HttpServlet {
             user.setCode(code);
 
             UserService userService = new UserServiceImpl();
-            userService.register(user);
+            boolean register = userService.register(user);
 
-            request.setAttribute("msg", "Welcome to Jerry's Website! Please go to your email to activate your " +
-                    "account!");
+            if (register) {
+                request.setAttribute("msg", "Welcome to Jerry's Website! Please go to your email to activate your " +
+                        "account!");
+            }else {
+                request.setAttribute("msg", "Register failed!");
+            }
             request.getRequestDispatcher("/msg.jsp").forward(request, response);
         }catch (Exception e){
             e.printStackTrace();

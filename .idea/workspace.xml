@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ddcc0a5-f64a-48e0-a436-ca12fb3bbc0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/artifacts/ActivationEmail2_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/dataSources/4ec8d3a8-5b3e-4540-8751-88a3a9f4ff13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/dataSources/4ec8d3a8-5b3e-4540-8751-88a3a9f4ff13/storage_v2/_src_/database/hmail.H5LsBQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/dataSources/4ec8d3a8-5b3e-4540-8751-88a3a9f4ff13/storage_v2/_src_/database/hmail.H5LsBQ/schema/hmail.H5LsBQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/dataSources/4ec8d3a8-5b3e-4540-8751-88a3a9f4ff13/storage_v2/_src_/database/hmail.H5LsBQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/dataSources/4ec8d3a8-5b3e-4540-8751-88a3a9f4ff13/storage_v2/_src_/database/hmail.H5LsBQ/schema/public.abK9xQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/ActivationEmail.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/demo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/out/artifacts/ActivationEmail2_war_exploded/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/out/artifacts/ActivationEmail2_war_exploded/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/out/artifacts/ActivationEmail2_war_exploded/WEB-INF/lib/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/out/artifacts/ActivationEmail2_war_exploded/WEB-INF/lib/postgresql-42.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/out/artifacts/ActivationEmail2_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/out/artifacts/ActivationEmail2_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/out/artifacts/ActivationEmail2_war_exploded/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/src/imooc/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/src/imooc/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/src/imooc/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/src/imooc/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/src/imooc/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/src/imooc/utils/MailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/src/imooc/utils/UUIDUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/src/imooc/web/servlet/ActiveServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/src/imooc/web/servlet/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/web/WEB-INF/lib/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/web/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/web/WEB-INF/lib/postgresql-42.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/web/msg.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActivationEmail/web/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carpool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/carpool/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +14,31 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="48">
+                <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="3832" />
@@ -69,7 +52,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,6 +63,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -96,6 +79,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\I505998\OneDrive - Concordia University - Canada\ProgrammingProjects\PracticeProjects" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,6 +110,7 @@
       <workItem from="1555332668987" duration="1276000" />
       <workItem from="1556019819458" duration="265000" />
       <workItem from="1557263605899" duration="35000" />
+      <workItem from="1557263684322" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="change directory structure">
       <created>1555332764484</created>
@@ -137,14 +126,22 @@
       <option name="project" value="LOCAL" />
       <updated>1556019907260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Activation Email">
+      <created>1557263800761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557263800761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1576000" />
+    <option name="totallyTimeSpent" value="1697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49695122" visible="true" weight="0.15789473" />
       <window_info id="Structure" order="1" sideWeight="0.5030488" side_tool="true" weight="0.14930183" />
@@ -182,7 +179,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change directory structure" />
     <MESSAGE value="remove calculator, move to Learn Spring in my local." />
-    <option name="LAST_COMMIT_MESSAGE" value="remove calculator, move to Learn Spring in my local." />
+    <MESSAGE value="Activation Email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activation Email" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="48">
+            <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

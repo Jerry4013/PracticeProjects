@@ -12,7 +12,7 @@ import java.sql.*;
 public class UserDaoImpl implements UserDao {
 
     @Override
-    public void register(User user) throws SQLException, ClassNotFoundException {
+    public boolean register(User user) throws SQLException, ClassNotFoundException {
 
         Connection connection = getConnection();
         PreparedStatement statement;
@@ -28,7 +28,9 @@ public class UserDaoImpl implements UserDao {
             connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
+            return false;
         }
+        return true;
     }
 
     @Override
