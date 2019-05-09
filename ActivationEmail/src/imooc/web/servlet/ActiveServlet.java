@@ -27,7 +27,8 @@ public class ActiveServlet extends HttpServlet {
                 user.setState(1);
                 user.setCode(null);
                 userService.update(user);
-                request.setAttribute("msg", "Activation Complete! Your account activation has been completed succesfully.");
+                request.setAttribute("msg", "Activation Complete! Your account activation has been completed " +
+                        "successfully.");
             }else {
                 request.setAttribute("msg", "Your activation code seems is not correct. Please activate again.");
             }
