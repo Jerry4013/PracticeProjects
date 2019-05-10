@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a3dbab3-a518-4a57-91ef-69d552016699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ActivationEmail/credentials.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gmail/.idea/artifacts/Gmail_ear_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gmail/.idea/libraries/javax_mail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gmail/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gmail/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gmail/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gmail/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gmail/Gmail.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gmail/META-INF/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gmail/src/Gmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GmailQuickstart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SendEmailUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActivationEmail/.idea/dataSources/4ec8d3a8-5b3e-4540-8751-88a3a9f4ff13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ActivationEmail/.idea/dataSources/4ec8d3a8-5b3e-4540-8751-88a3a9f4ff13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActivationEmail/.idea/dataSources/4ec8d3a8-5b3e-4540-8751-88a3a9f4ff13/storage_v2/_src_/database/hmail.H5LsBQ/schema/hmail.H5LsBQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../ActivationEmail/.idea/dataSources/4ec8d3a8-5b3e-4540-8751-88a3a9f4ff13/storage_v2/_src_/database/hmail.H5LsBQ/schema/hmail.H5LsBQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ActivationEmail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ActivationEmail/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActivationEmail/src/imooc/utils/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ActivationEmail/src/imooc/utils/MailUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ActivationEmail/src/imooc/web/servlet/ActiveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ActivationEmail/src/imooc/web/servlet/ActiveServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gmail/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gmail/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -60,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GmailQuickstart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1383">
-              <caret line="81" column="42" lean-forward="true" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+            <state relative-caret-position="1032">
+              <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -103,9 +83,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="3877" />
-    <option name="y" value="-16" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3832" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -204,15 +184,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557414406165</updated>
-      <workItem from="1557414410936" duration="7714000" />
+      <workItem from="1557414410936" duration="7721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7714000" />
+    <option name="totallyTimeSpent" value="7721000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3832" y="-8" width="1936" height="1176" extended-state="7" />
+    <frame x="3832" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49695122" visible="true" weight="0.18152525" />
@@ -300,8 +280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GmailQuickstart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1383">
-          <caret line="81" column="42" lean-forward="true" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+        <state relative-caret-position="1032">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />

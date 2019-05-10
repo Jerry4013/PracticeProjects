@@ -30,7 +30,7 @@ public class MailUtils {
                 new javax.mail.Authenticator() {
                     protected PasswordAuthentication getPasswordAuthentication() {
                         return new PasswordAuthentication(
-                                "jerryzhang4013@gmail.com", "3229891zjc");
+                                "<google user account name>", "<google account password>");
                     }
                 });
 
@@ -38,7 +38,7 @@ public class MailUtils {
 
         // 2. Create an email object
         Message message = new MimeMessage(session);
-        message.setFrom(new InternetAddress("jerryzhang4013@gmail.com"));
+        message.setFrom(new InternetAddress("<from email address>"));
         String[] recipients = { to };
         InternetAddress[] addressTo = new InternetAddress[recipients.length];
         for (int i = 0; i < recipients.length; i++) {
